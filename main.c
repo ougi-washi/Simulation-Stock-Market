@@ -43,7 +43,7 @@ int main(void){
 	
 	int money_invested;
 	
-	while ((market.stock_price>0.0001)&&(transactions<20)){
+	while ((market.stock_price>0.0001)&&(transactions<40)){
 		
 		//Stocks bought shouldn't exceed stocks available
 		do {
@@ -82,7 +82,7 @@ int main(void){
 	
 	fclose(ptr);
 	
-	system("manim -pqh visual.py StockPricesCurve");
+	system("manim -pql visual.py StockPricesCurve");
 	
 }
 
