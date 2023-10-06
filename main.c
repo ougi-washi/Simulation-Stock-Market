@@ -82,7 +82,7 @@ int main(void){
 	
 	fclose(ptr);
 	
-	system("manim -pql visual.py StockPricesCurve");
+	system("manim -pqh visual.py StockPricesCurve");
 	
 }
 
